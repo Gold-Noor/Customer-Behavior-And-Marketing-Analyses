@@ -12,4 +12,5 @@ SELECT
     END AS PriceCategory  
 
 FROM 
+
     dbo.products;  
