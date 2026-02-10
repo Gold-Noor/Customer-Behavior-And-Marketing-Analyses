@@ -14,4 +14,5 @@ SELECT
 FROM 
     dbo.engagement_data  
 WHERE 
+
     ContentType != 'Newsletter';  -- Filters out rows where ContentType is 'Newsletter' as these are not relevant for our analysis
